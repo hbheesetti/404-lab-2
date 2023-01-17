@@ -1,0 +1,6 @@
+Q1: socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+Q2: server: binds to an address and a port, accepts requests. Client: makes requests to the server 
+Q3: use this opt in the socket options "socket.SO_REUSEADD"
+Q4: Port Number of the client, and the ip
+Q5: All three calls return the length of the message on successful completion. 
+    If a message is too long to fit in the supplied buffer, excess bytes may be discarded depending on the type of socket the message is received from.
